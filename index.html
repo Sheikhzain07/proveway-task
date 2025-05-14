@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prove way PVT LTD</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="h1">
+        <div class="hr"></div>
+        <h1>YAY! It's BOGO</h1>
+        <div class="hr"></div>
+      </div>
+
+      <div class="box product-option" onclick="toggleBox(event, 'box1')">
+        <div class="box-header">
+          <div class="input-label">
+            <input type="radio" name="units" id="unit1" />
+            <label for="unit1"
+              >1 Unit <span class="dis-per">10% Off</span></label
+            >
+          </div>
+
+          <span class="dis-p">$10.00 USD</span>
+        </div>
+        <div class="orig-price">
+          <p class="first-p">Standard Price</p>
+          <p class="second-p">$24.00 USD</p>
+        </div>
+        <div class="box-content details" id="box1">
+          <p class="size-clr"><span>Size</span><span>Colour</span></p>
+          <p class="select-size">
+            #1
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Beige</option>
+            </select>
+          </p>
+          <p class="select-size">
+            #2
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Beige</option>
+            </select>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="box product-option popular"
+        onclick="toggleBox(event, 'box2')"
+      >
+        <div class="box-header">
+          <p class="most-pop">MOST POPULAR</p>
+          <div class="input-label">
+            <input type="radio" name="units" id="unit2" />
+            <label for="unit2"
+              >2 Unit <span class="dis-per">20% Off</span></label
+            >
+          </div>
+          <div class="compare-p">
+            <span class="dis-p">$18.00 USD</span
+            ><span class="second-p">$24.00 USD</span>
+          </div>
+        </div>
+
+        <div class="box-content details" id="box2">
+          <p class="size-clr"><span>Size</span><span>Colour</span></p>
+          <p class="select-size">
+            #1
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Beige</option>
+            </select>
+          </p>
+          <p class="select-size">
+            #2
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Beige</option>
+            </select>
+          </p>
+        </div>
+      </div>
+
+      <div class="box product-option" onclick="toggleBox(event, 'box3')">
+        <div class="box-header">
+          <div class="input-label">
+            <input type="radio" name="units" id="unit3" />
+            <label for="unit3"
+              >3 Unit <span class="dis-per">30% Off</span></label
+            >
+          </div>
+          <div class="compare-p">
+            <span class="dis-p">$24.00 USD</span
+            ><span class="second-p">$24.00 USD</span>
+          </div>
+        </div>
+
+        <div class="box-content details" id="box3">
+          <p class="size-clr"><span>Size</span><span>Colour</span></p>
+          <p class="select-size">
+            #1
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Beige</option>
+            </select>
+          </p>
+          <p class="select-size">
+            #2
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Beige</option>
+            </select>
+          </p>
+        </div>
+      </div>
+
+      <p class="footer">
+        <span class="footer1">Free Delivery</span>
+        <span class="footer2">Total: $18.00 USD</span>
+      </p>
+      <button class="add-to-cart">+&nbsp;&nbsp;Add to Cart</button>
+      <p class="powered">@ Powered by Pumper</p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
